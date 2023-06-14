@@ -25,3 +25,12 @@ img {
   max-width: 100%;
   display: block;
 }
+ul{
+  display:inline ;
+}
+.dashboard{
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
