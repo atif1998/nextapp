@@ -5,10 +5,11 @@
   justify-content: center;
   flex-wrap: row;
 }
+
 .mainnav {
+  justify-content: center;
+}
+.ulist {
   display: flex;
-  justify-content: space-between;
-  padding-left: 400px;
-  gap: 50px;
-  align-items: center;
+  gap: 30px;
 }

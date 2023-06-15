@@ -3,8 +3,8 @@ import Link from "next/link";
 import styles from "../styles/home.module.css";
 const NavBar = () => {
   return (
-    <nav>
-      <ul className={styles.mainnav}>
+    <nav className={styles.mainnav}>
+      <ul className={styles.ulist}>
         <Link href="/home">
           <li>Home</li>
         </Link>
